@@ -13,4 +13,4 @@ JavaScript Tutorials
 - Writing into an alert box, using `window.alert().`
 - Writing into an alert box, using, skipping windows `alert().`
 - Writing into the browser console, using `console.log().`
-- 
+- JavaScript Print `window.print()`
