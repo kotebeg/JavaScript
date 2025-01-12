@@ -13,3 +13,15 @@ document.getElementById("demo").style.fontSize = "35px";
 
 document.getElementById("demo").style.display = "none";
 document.getElementById("demo").style.display = "block";
+
+document.getElementById("demo").innerHTML = 5 + 6;
+
+
+// Display Possibilities
+
+// Using document.write() after an HTML document is loaded, will delete all existing HTML:
+document.write(5 + 6);
+window.alert(5 + 6);
+alert(5 + 6);
+console.log(5 + 6);
+
