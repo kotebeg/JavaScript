@@ -16,9 +16,9 @@ JavaScript Tutorials
 - JavaScript Print `window.print()`
 
 
--
--
--
+- Finding HTML Elements
+- Changing HTML Elements
+- Adding and Deleting Elements
 -
 -
 -
