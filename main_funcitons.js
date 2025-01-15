@@ -26,3 +26,8 @@ alert(5 + 6);
 console.log(5 + 6);
 window.print()  // print existing web page to printer
 
+// Finding HTML Elements
+
+document.getElementById(id)	          //Find an element by element id
+document.getElementsByTagName(name)	  // Find elements by tag name
+document.getElementsByClassName(name) //Find elements by class name
