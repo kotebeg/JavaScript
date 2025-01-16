@@ -135,5 +135,21 @@ document.getElementById("p2").style.color = "blue";
 
 /*----------------------------------------JavaScript HTML DOM Events---------------------------------------*/
 
+onclick="this.innerHTML='Ooops!'"
+/*
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript HTML Events</h1>
+<h2>The onclick Attribute</h2>
+
+<h2 onclick="this.innerHTML='Ooops!'">Click on this text!</h2>
+
+</body>
+</html>
+*/
+
+
+
 
 
