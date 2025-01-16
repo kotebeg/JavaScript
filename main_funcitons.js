@@ -133,4 +133,7 @@ document.getElementById("p2").style.color = "blue";
 </html>
 */
 
+/*----------------------------------------JavaScript HTML DOM Events---------------------------------------*/
+
+
 
