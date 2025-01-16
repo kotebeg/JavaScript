@@ -19,7 +19,11 @@ JavaScript Tutorials
 - Finding HTML Elements
 - Changing HTML Elements
 - Adding and Deleting Elements
+
+  
+- Finding HTML Element by Id
+- const element = document.getElementsByTagName("p");
 -
 -
--
--
+- JavaScript Form Validation
+- Changing HTML Style
