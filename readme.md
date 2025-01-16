@@ -27,3 +27,5 @@ JavaScript Tutorials
 -
 - JavaScript Form Validation
 - Changing HTML Style
+
+## JavaScript HTML DOM Events
