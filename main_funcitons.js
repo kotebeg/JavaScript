@@ -48,5 +48,39 @@ document.write(text)              // Write into the HTML output stream
 
 
 
+// Finding HTML Element by Id
+const element = document.getElementById("intro");
+
+// Finding HTML Elements by Tag Name
+const element = document.getElementsByTagName("p");
+
+const x = document.getElementById("main");
+const y = x.getElementsByTagName("p");
+
+//Finding HTML Elements by Class Name
+const x = document.getElementsByClassName("intro");
+
+// Finding HTML Elements by CSS Selectors
+/*
+If you want to find all HTML elements that match a specified CSS selector (id, class names, types, attributes, values of attributes, etc), use the querySelectorAll() method.
+This example returns a list of all <p> elements with class="intro".
+*/
+const x = document.querySelectorAll("p.intro");
+
+
+//Finding HTML Elements by HTML Object Collections
+// This example finds the form element with id="frm1", in the forms collection, and displays all element values:
+const x = document.forms["frm1"];
+let text = "";
+for (let i = 0; i < x.length; i++) {
+  text += x.elements[i].value + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+
+
+// Finding HTML Elements by HTML Object Collections
+
+
+
 
 
