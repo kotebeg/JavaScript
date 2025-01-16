@@ -202,6 +202,37 @@ function displayDate() {
 */
 
 
+// -----------------  on click event
+document.getElementById("myBtn").onclick = displayDate;
+
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
+
+/* 
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript HTML Events</h1>
+<h2>The onclick Events</h2>
+
+<p>Click "Try it" to execute the displayDate() function.</p>
+<button id="myBtn">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("myBtn").onclick = displayDate;
+
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
+</body>
+</html> 
+
+*/
 
 
 
