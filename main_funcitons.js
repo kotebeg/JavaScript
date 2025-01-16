@@ -150,6 +150,30 @@ onclick="this.innerHTML='Ooops!'"
 */
 
 
+// -----------------  function call
+onclick="changeText(this)"
+
+/*
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript HTML Events</h1>
+<h2>The onclick Attribute</h2>
+
+<h2 onclick="changeText(this)">Click on this text!</h2>
+
+<script>
+function changeText(id) {
+  id.innerHTML = "Ooops!";
+}
+</script>
+
+</body>
+</html>
+
+*/
+
+
 
 
 
