@@ -16,6 +16,17 @@ document.getElementById("demo").style.display = "block";
 
 document.getElementById("demo").innerHTML = 5 + 6;
 
+/*----------------------------------------this Keyword---------------------------------------*/
+const person = {
+  firstName: "John",
+  lastName : "Doe",
+  id       : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+
 
 // Display Possibilities
 
