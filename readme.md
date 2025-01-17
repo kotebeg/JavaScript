@@ -19,7 +19,9 @@ JavaScript Tutorials
 - 
 - The JavaScript `this` Keyword
 - `this` in a Method
+- `this` in Event Handlers
 
+-
 
 - Finding HTML Elements
 - Changing HTML Elements
