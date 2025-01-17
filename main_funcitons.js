@@ -80,8 +80,20 @@ document.getElementById("demo").innerHTML = person.fullName();
 </html>
 */
 
+/*----------------------------------------this in Event Handlers--------------------------------------*/
+onclick="this.style.display='none'"
+/*
+<!DOCTYPE html>
+<html>
+<body>
 
+<h1>The JavaScript <i>this</i> Keyword</h1>
 
+<button onclick="this.style.display='none'">Click to Remove Me!</button>
+
+</body>
+</html>
+*/
 
 
 
