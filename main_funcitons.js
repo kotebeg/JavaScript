@@ -95,6 +95,19 @@ onclick="this.style.display='none'"
 </html>
 */
 
+/*----------------------------------------this Object Method Binding-------------------------------------*/
+// Create an object:
+const person = {
+  firstName  : "John",
+  lastName   : "Doe",
+  id     : 5566,
+  myFunction : function() {
+    return this;
+  }
+};
+
+// Display data from the object:
+document.getElementById("demo").innerHTML = person.myFunction();
 
 
 
