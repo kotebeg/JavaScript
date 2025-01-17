@@ -18,7 +18,7 @@ JavaScript Tutorials
 
 - 
 - The JavaScript `this` Keyword
-- 
+- `this` in a Method
 
 
 - Finding HTML Elements
